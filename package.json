@@ -1,0 +1,22 @@
+{
+  "name": "budget-racker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffmlb91/Budget-racker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffmlb91/Budget-racker/issues"
+  },
+  "homepage": "https://github.com/jeffmlb91/Budget-racker#readme",
+  "devDependencies": {
+    "webpack": "^5.67.0"
+  }
+}
