@@ -18,5 +18,10 @@
   "homepage": "https://github.com/jeffmlb91/Budget-racker#readme",
   "devDependencies": {
     "webpack": "^5.67.0"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
   }
 }

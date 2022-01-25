@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const transaction = new Schema(
+const transactionSchema = new Schema(
     {
         name: {
             type: String,
@@ -19,3 +19,7 @@ const transaction = new Schema(
         }
     }
 );
+
+const Transaction = mongoose.model("Transaction", transactionSchema);
+
+module.exports = Transaction;
